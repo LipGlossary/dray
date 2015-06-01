@@ -1,0 +1,53 @@
+/*****   STANDARD   *****/
+html {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+body {
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 81.3%;    /* 1em = 10pt */
+  font-family: sans-serif;
+}
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+  line-height: 1.2em;
+}
+p, li a {
+  margin: 1.4em 0;
+  line-height: 1.4em;
+}
+
+/*****   HOME / ABOUT   *****/
+.top {}
+.banner {}
+nav {}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main header {}
+main img {
+  width: 200px;
+  height: 200px;
+}
+.contact {}
+.nav {}
+.nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+footer { font-size: 0.8em; }
